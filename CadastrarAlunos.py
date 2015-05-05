@@ -13,7 +13,7 @@ class Aluno:
         self.adress = adress
         self.email = email
     def __str__(self):
-        return "\nAluno: " + self.name + "\nEndereço:" + self.adress + "\nEle está sem graça?: " + self.email
+        return "\nAluno: " + self.name + "\nEndereço:" + self.adress + "\nE-mail: " + self.email
    
 
 primeiro = Aluno()

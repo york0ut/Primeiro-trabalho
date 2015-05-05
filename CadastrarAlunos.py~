@@ -33,7 +33,7 @@ while True:
         os.system("clear")
         name = raw_input("Digite o nome do aluno: ")
         adress = raw_input("Digite o endereco do aluno: ")
-        email = raw_input("Esta sem graca, porra?: ")
+        email = raw_input("Digite o e-mail do aluno: ")
         obj = Aluno(name, adress, email)
         if primeiro.name == "":
             primeiro = obj
